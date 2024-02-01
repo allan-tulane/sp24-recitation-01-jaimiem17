@@ -35,7 +35,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [x] 2. Test that your function is correct by calling from the command-line `pytest test_main.py::test_binary_search`
 
-- [ ] 3. Write at least two additional test cases in `test_binary_search` and confirm they pass.
+- [x] 3. Write at least two additional test cases in `test_binary_search` and confirm they pass.
 
 - [x] 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`?
 
@@ -71,7 +71,7 @@ They do match. Linear search gets exponentially slower while n increases while i
 
 **TODO: your answer goes here**
 
-- [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
+- [x] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here**
   + For binary search? **TODO: your answer goes here**
      The worst case complexity for searching a list of n items k times using linear search would just be O(k*n) because each search takes O(n) time and it is searched k times.
